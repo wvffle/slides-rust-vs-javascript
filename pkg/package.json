@@ -1,0 +1,19 @@
+{
+  "name": "fib",
+  "collaborators": [
+    "Kasper Seweryn <github@wvffle.net>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "fib_bg.wasm",
+    "fib.js",
+    "fib_bg.js",
+    "fib.d.ts"
+  ],
+  "module": "fib.js",
+  "types": "fib.d.ts",
+  "sideEffects": [
+    "./fib.js",
+    "./snippets/*"
+  ]
+}

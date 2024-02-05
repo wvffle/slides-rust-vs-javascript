@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "as-table": "^1.0.55",
+    "table": "^6.8.1",
+    "tinybench": "^2.5.1"
+  },
+  "devDependencies": {
+    "vite-plugin-wasm": "^3.2.2"
+  }
+}
